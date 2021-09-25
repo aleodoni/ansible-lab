@@ -7,5 +7,4 @@
           msg: "Hello {{ name }}"
       - name: Display group vars
         debug:
-          msg: "OS: {{ os }}"
-          msg: "Memory: {{ memory }}"
+          msg: "OS: {{ os }} and memory: {{ memory }}" 
