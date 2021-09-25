@@ -19,11 +19,26 @@ You must do some initial setup before run the playbooks:
 # Playbooks
 
 ## hello-world
-This simple playbook shows group and host vars
+This simple playbook shows group and host 
+
+command:
+```
+ansible-playbook -i hosts playbooks/hello-world.yml
+```
 
 ## ping
 This playbook try to ping all hosts
 
+command:
+```
+ansible-playbook -i hosts playbooks/ping.yml
+```
+
 ## all-apt-update.yml
 This is your first real playbook. It updates the package list for all servers in your
 inventory (hosts).
+
+command:
+```
+ansible-playbook -i hosts playbooks/all-apt-update.yml --ask-become-pass
+```
