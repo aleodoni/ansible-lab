@@ -1,0 +1,11 @@
+---
+  - name: Hello World playbook
+    hosts: all
+    tasks:
+      - name: Display host var
+        debug:
+          msg: "Hello {{ name }}"
+      - name: Display group vars
+        debug:
+          msg: "OS: {{ os }}"
+          msg: "Memory: {{ memory }}"
