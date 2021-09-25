@@ -21,6 +21,9 @@ You must do some initial setup before run the playbooks:
 ## hello-world
 This simple playbook shows group and host vars
 
+## ping
+This playbook try to ping all hosts
+
 ## all-apt-update.yml
 This is your first real playbook. It updates the package list for all servers in your
 inventory (hosts).
