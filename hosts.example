@@ -1,2 +1,5 @@
 [virtual]
-# put here ips or server names
+# put here server names
+
+[moodle_server]
+# put here your moodle servers
