@@ -24,3 +24,9 @@
         - clamav 
         - git  
 
+    - name: Install MySQL 
+      apt: 
+        pkg:
+        - mysql-server
+        - mysql-client  
+
