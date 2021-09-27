@@ -42,3 +42,11 @@ command:
 ```
 ansible-playbook -i hosts playbooks/all-apt-update.yml --ask-become-pass
 ```
+
+## install-moodle.yml
+Install moodle and all required packages in servers that belongs to the group moodle_server.
+
+command:
+```
+ansible-playbook -i hosts playbooks/install-moodle.yml --ask-become-pass
+```

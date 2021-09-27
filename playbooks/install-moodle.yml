@@ -1,5 +1,5 @@
 ---
-- hosts: moodle-server
+- hosts: moodle_server
   become: yes
   become_user: root
   become_method: su
@@ -14,7 +14,7 @@
     - name: Remove dependencies that are no longer required
       apt:
         autoremove: yes
-        
+
     - name: Install necessary packages
       apt:
         pkg:
